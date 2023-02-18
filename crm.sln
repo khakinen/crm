@@ -3,6 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crm.api", "crm.api\crm.api.csproj", "{7FEB8F96-B3CF-44AC-93C1-96EEE41FB66B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crm.Domain.Implementation", "crm.Domain\crm.Domain.Implementation.csproj", "{3B2C8F18-9279-4789-BDFE-0E8E7F580BC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crm.Domain.Contract", "crm.Domain.Contract\crm.Domain.Contract.csproj", "{B14AD549-C6CD-402D-AE5A-EF2A89DC2667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crm.Data.Contract", "crm.Data.Contract\crm.Data.Contract.csproj", "{91ED068E-99F0-4D73-AE66-BCE51A9632B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crm.Data.EF", "crm.Data.EF\crm.Data.EF.csproj", "{1397F41C-D123-40E5-B589-91379FBDADF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +20,27 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FEB8F96-B3CF-44AC-93C1-96EEE41FB66B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FEB8F96-B3CF-44AC-93C1-96EEE41FB66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FEB8F96-B3CF-44AC-93C1-96EEE41FB66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FEB8F96-B3CF-44AC-93C1-96EEE41FB66B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2C8F18-9279-4789-BDFE-0E8E7F580BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2C8F18-9279-4789-BDFE-0E8E7F580BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2C8F18-9279-4789-BDFE-0E8E7F580BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2C8F18-9279-4789-BDFE-0E8E7F580BC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B14AD549-C6CD-402D-AE5A-EF2A89DC2667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14AD549-C6CD-402D-AE5A-EF2A89DC2667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14AD549-C6CD-402D-AE5A-EF2A89DC2667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14AD549-C6CD-402D-AE5A-EF2A89DC2667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91ED068E-99F0-4D73-AE66-BCE51A9632B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91ED068E-99F0-4D73-AE66-BCE51A9632B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91ED068E-99F0-4D73-AE66-BCE51A9632B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91ED068E-99F0-4D73-AE66-BCE51A9632B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1397F41C-D123-40E5-B589-91379FBDADF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1397F41C-D123-40E5-B589-91379FBDADF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1397F41C-D123-40E5-B589-91379FBDADF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1397F41C-D123-40E5-B589-91379FBDADF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

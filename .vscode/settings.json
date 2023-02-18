@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "crm.Domain/*bin.*": true,
+    "crm.Domain/*crm.Domain.Implementation": true,
+    "crm.Domain/*crm.Domain.Implementation.*": true,
+    "crm.Domain/*obj": true,
+    "crm.Domain/*obj.*": true,
+    "crm.app": true,
+    "crm.api/bin": true,
+    "crm.api/obj": true
+  }
+}
