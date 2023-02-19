@@ -21,7 +21,7 @@ CREATE TABLE [dbo].[Address] (
 
 );
 
-CREATE TABLE [dbo].[Customer_Address] (
+CREATE TABLE [dbo].[CustomerAddress] (
     [CustomerId] UNIQUEIDENTIFIER NOT NULL,
     [AddressId] UNIQUEIDENTIFIER NOT NULL,
 );
